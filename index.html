@@ -2,35 +2,39 @@
 
 <head>
     <title> Paula Natal Codecademy Portfolio</title>
-    <link href="script.js" rel="stylesheet">
-    <script src="script.js"></script>
-</head>
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap"
+        rel="stylesheet">
 
 <body>
     <header>
-        <img src="files/logo.svg" alt="Paula Natal's logo" />
         <nav>
+            <div id="logo">Paula Natal</div>
+
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="projects">Projects</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="#about" class="menu-link active">About</a></li>
+                <li><a href="#services" class="menu-link">Skills</a></li>
+                <li><a href="#contact" class="menu-link">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
+
+
         <section id="about">
-            <img src="files/PaulaPortrait.jpg" alt="Paula's selfie" />
+
             <h1>Hello! My name is Paula</h1>
-            <h3>I'm a designer with more than 10 years of experience in both visual and UI design and now I'm doing the
-                Front-End engineer carreer path at Codecademy to become a web development one-(wo)man band.</h3>
+            <p>I'm a designer with more than 10 years of experience in both visual and UI design and now I'm doing the
+                Front-End engineer carreer path at Codecademy to become a web development one-(wo)man band.</p>
         </section>
         <section id="services">
-            <h2>Services</h2>
             <ul>
                 <li>
-                    <h3>Brand Ecosystems</h3> <a><img src="files/arrow.svg" alt="aroowicon" /></a>
-                    <p>Building a brand is is about establishing instructions on how touse words, and elements to
+                    <h3 class="serviceTitle">Brand Ecosystems<span class="toggle-symbol">+</span></h3>
+                    <p class="description">Building a brand is is about establishing instructions on how touse words,
+                        and elements to
                         communicate your company's unique characteristics and values.
                         My expertise lies in conceiving, prioritising and creating all the graphic resources needed to
                         'dress' and grow this identity over time. I develop design systems and user-friendly elements
@@ -38,8 +42,10 @@
                     </p>
                 </li>
                 <li>
-                    <h3>Product and Web Design</h3> <a><img src="files/arrow.svg" alt="aroowicon" /></a>
-                    <p>Research to understand the audience and their environment,create libraries of
+                    
+                    <h3 class="serviceTitle">Product and Web Design<span class="toggle-symbol">+</span></h3>
+
+                    <p class="description">Research to understand the audience and their environment,create libraries of
                         components,animations, and interactions to maintain consistency, and then test and iterate to
                         improve and adapt the experience.
                         I participate in this whole cyclical process. The goal is to turn a complex product into
@@ -48,8 +54,10 @@
                     </p>
                 </li>
                 <li>
-                    <h3>Video and Motion Graphics</h3> <a><img src="files/arrow.svg" alt="aroowicon" /></a>
-                    <p>Engaging the audience and conveying clear and direct messages through movement and sound.
+                    
+                    <h3 class="serviceTitle">Video and Motion Graphics<span class="toggle-symbol">+</span></h3>
+
+                    <p class="description">Engaging the audience and conveying clear and direct messages through movement and sound.
                         I ensure that every sequence, whether polishing raw footage or designing motion graphics, has a
                         clear purpose. Whether it's a promotional video, explainer animation, or social media content, I
                         love creating visually engaging videos that connect with viewers and boost your brand presence.
@@ -57,8 +65,9 @@
                     </p>
                 </li>
                 <li>
-                    <h3>Photography</h3> <a><img src="files/arrow.svg" alt="aroowicon" /></a>
-                    <p>I am passionate about the audiovisual world, especially photography.
+                    <h3 class="serviceTitle">Photography<span class="toggle-symbol">+</span></h3>
+                    
+                    <p class="description">I am passionate about the audiovisual world, especially photography.
                         The feeling of impatience when you can't wait to get home, see the image you have just captured
                         big, and see the possibilities it gives you and the story it tells, is priceless. I enjoy
                         capturing cityscapes, architecture, and nature, and I also take professional photographs for
@@ -70,42 +79,34 @@
             </ul>
         </section>
         <section id="technologies">
-            <img src="files/technologies/tech 1.png" alt="Photoshop Icon" />
-            <img src="files/technologies/tech 2.png" alt="Illustrator Icon" />
-            <img src="files/technologies/tech 3.png" alt="After Effect Icon" />
-            <img src="files/technologies/tech 4.png" alt="Premiere Icon" />
-            <img src="files/technologies/tech 5.png" alt="InDesign Icon" />
-            <img src="files/technologies/tech 6.png" alt="Figma Icon" />
-            <img src="files/technologies/tech 7.png" alt="WebflowIcon" />
-            <img src="files/technologies/tech 8.png" alt="HTML Icon" />
-            <img src="files/technologies/tech 9.png" alt="CSS Icon" />
-            <img src="files/technologies/tech 10.png" alt="JavaScript Icon" />
-            <img src="files/technologies/tech 11.png" alt="Git Icon" />
-            <img src="files/technologies/tech 12.png" alt="GitHub Icon" />
+            <img src="files/technologies/tech 0.svg" alt="Lightroom Icon" />
+            <img src="files/technologies/tech 1.svg" alt="Photoshop Icon" />
+            <img src="files/technologies/tech 2.svg" alt="Illustrator Icon" />
+            <img src="files/technologies/tech 3.svg" alt="After Effect Icon" />
+            <img src="files/technologies/tech 4.svg" alt="Premiere Icon" />
+            <img src="files/technologies/tech 5.svg" alt="InDesign Icon" />
+            <img src="files/technologies/tech 6.svg" alt="Figma Icon" />
+            <img src="files/technologies/tech 7.svg" alt="WebflowIcon" />
+            <img src="files/technologies/tech 8.svg" alt="HTML Icon" />
+            <img src="files/technologies/tech 9.svg" alt="CSS Icon" />
+            <img src="files/technologies/tech 10.svg" alt="JavaScript Icon" />
+            <img src="files/technologies/tech 11.svg" alt="Git Icon" />
+            <img src="files/technologies/tech 12.svg" alt="GitHub Icon" />
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <img src="files/project/project.png" />
-            <img src="files/project/project.png" />
-            <img src="files/project/project.png" />
-            <img src="files/project/project.png" />
-            <img src="files/project/project.png" />
-            <img src="files/project/project.png" />
-            <img src="files/project/project.png" />
-            <img src="files/project/project.png" />
-        </section>
-        <section id="contact">
-            <h3>Contact me before it is too late and you can no longer afford to have such a brilliant profile as mine
-                in your team.</h3>
-            <p>or wel...<br>
-                Since becoming brilliant is not guaranteed, if you just want to talk about life in general, that's fine
-                too. In addition to learning to program, I urgently need to practice my English.</p>
-                <h2><a>paulanatalmail@yahoo.es</a></h2>
-        </section>
-    </main>
+
+    </header>
+
+    <section id="contact">
+        <h1>Contact me, reach out... dime algo por aqui</h1>
+        <p>
+            Since finishing this Front-End course is not 100% guaranteed, if you just want to talk about life in general, that's fine
+            too. In addition to learning to program, I also need to practice my English.</p>
+        <h2><a>paulanatalmail@yahoo.es</a></h2>
+    </section>
+
     <footer>
-        <p>©2024 Paula - Todos los derechos reservados</p>
+        <p>©2025 Paula - Todos los derechos reservados</p>
     </footer>
 
-
+    <script src="script.js"></script>
 </body>

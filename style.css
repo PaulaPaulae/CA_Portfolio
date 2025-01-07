@@ -1,0 +1,188 @@
+.space-mono-regular {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-mono-bold {
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#logo {
+    font-family: 'Tiny5', serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    color: #202020;
+    background-color: white;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #202020;
+    background-image: url("files/PaulaN.gif");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: 50% 0;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    min-width: 320px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Space Mono";
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+
+nav a {
+    font-weight: 400;
+    text-decoration: none;
+    color: #202020;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+nav ul li a.active::after {
+    content: attr(data-underline);
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 10px 0;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: "Space Mono", serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+p {
+    font-family: "Space Mono", serif;
+    font-size: 16px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+#about {
+    display: flex;
+    position: relative;
+    top: 0px;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    max-width: 700px;
+    min-height: 500px;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+#services {
+    padding-top: 100px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    max-width: 700px;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.description {
+    display: none; /* Ocultar las descripciones por defecto */
+    text-align: left;
+}
+
+.serviceTitle {
+    text-align: center;
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+.toggle-symbol {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#technologies {
+    width: 100%;
+    min-width: 320px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:50px 0;
+}
+
+#contact {
+    padding-top: 100px;
+    margin:-100px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    min-width: 320px;
+    max-width: 700px;
+    
+
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 320px;
+    max-width: 700px;
+
+}
