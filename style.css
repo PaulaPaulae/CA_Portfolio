@@ -94,8 +94,24 @@ h1 {
     text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
 }
 
+h2 {
+    font-family: "DM Sans", serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px auto;
+}
+
+h2 a {
+    text-decoration: none;
+    color: white;
+    background-color: #202020;
+    border: #202020 2px solid;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
 h3 {
-    font-size: 40px;
+    
     font-family: "Space Mono", serif;
     font-weight: bold;
     font-size: 16px;
@@ -186,3 +202,4 @@ footer {
     max-width: 700px;
 
 }
+
